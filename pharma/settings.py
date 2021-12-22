@@ -29,7 +29,7 @@ if DEBUG:
 else:
    STATIC_ROOT = BASE_DIR.joinpath('static')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
